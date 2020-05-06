@@ -1,0 +1,25 @@
+/************************************
+* Layout
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(rgba(121, 121, 121, 0.1), rgba(0, 0, 0, 0.8)), url(./images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 900px;
+    height: 100px;
+}
