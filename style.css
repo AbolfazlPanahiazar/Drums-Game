@@ -42,7 +42,6 @@ body {
     outline: none;
     border: 3px solid transparent;
     transition: all 0.1s;
-    cursor: pointer;
 }
 
 kbd {
@@ -60,4 +59,3 @@ span {
     border: 3px solid rgba(212, 140, 6, 0.767);
     transition: all 0.1s;
 }
-
