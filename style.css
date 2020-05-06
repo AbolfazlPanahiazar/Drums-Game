@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -24,6 +25,15 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
+}
+
+.caption {
+    font-size: 1.3rem;
+    background-color: rgba(119, 119, 119, 0.144);
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+    text-transform: capitalize;
 }
 
 /************************************
