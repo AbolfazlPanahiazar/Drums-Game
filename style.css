@@ -20,6 +20,18 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 950px;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/************************************
+* Keys
+*/
+.key {
+    width: 95px;
+    height: 100px;
+    background-color: rgba(49, 49, 49, 0.418);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
 }
